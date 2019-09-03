@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zaki-yama/typescript-npm-package-template/issues"
   },
-  "homepage": "https://github.com/zaki-yama/typescript-npm-package-template#readme"
+  "homepage": "https://github.com/zaki-yama/typescript-npm-package-template#readme",
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
 }
