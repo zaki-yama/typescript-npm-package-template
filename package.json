@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
+  "module": "esm/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,7 +15,8 @@
     "url": "git+https://github.com/zaki-yama/typescript-npm-package-template.git"
   },
   "files": [
-    "lib"
+    "lib",
+    "esm"
   ],
   "keywords": [],
   "author": "",
