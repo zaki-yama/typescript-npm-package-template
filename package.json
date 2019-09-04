@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/zaki-yama/typescript-npm-package-template.git"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
