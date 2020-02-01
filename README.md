@@ -5,6 +5,8 @@ A template for developing a npm package that supports multiple module formats (C
 
 ### File Structure
 
+![](./overview.png)
+
 ```zsh
 src/ # Source files written in TypeScript
   - moduleA.ts
